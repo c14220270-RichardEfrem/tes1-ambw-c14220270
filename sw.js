@@ -1,12 +1,13 @@
 const CACHE_NAME = 'resep-cache-v1';
+// ubah semua path menjadi relative path untuk deploy ke github pages
 const urlsToCache = [
-  '/',
-  '/index.html',
-  '/app.js',
-  '/icons/icon-192.png',
-  '/icons/icon-512.png',
-  '/style.css',
-  '/resep.jpg'
+  './',
+  './index.html',
+  './app.js',
+  './icons/icon-192.png',
+  './icons/icon-512.png',
+  './style.css',
+  './resep.jpg'
 ];
 
 self.addEventListener('install', event => {

@@ -2,7 +2,7 @@
   "name": "Resep Nasi Goreng Jawa",
   "short_name": "ResepNasgorJawa",
   "description": "Aplikasi PWA Sederhana untuk Resep Nasi Gorang Jawa",
-  "start_url": "./index.html",
+  "start_url": "/tes1-ambw-c14220270/index.html",
   "display": "standalone",
   "background_color": "#fafafa",
   "theme_color": "#e67e22",
